@@ -6,7 +6,18 @@
   --primary-cloud: #f4f4fd;
   --primary-cornflower: #e7e9fc;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .link {
   text-decoration: none;
 }
@@ -118,6 +129,10 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+.sect-two {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .sect-title {
   color: var(--white, #fff);
   max-width: 496px;
@@ -153,7 +168,13 @@ body {
   border: none;
   border-radius: 4px;
 }
-
+.job-conteiner {
+  display: flex;
+  gap: 24px;
+}
+.job-conteiner-list {
+  width: calc((100% - 72px) / 4);
+}
 .job-conteiner-list-title {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
