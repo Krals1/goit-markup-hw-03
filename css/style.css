@@ -21,7 +21,7 @@
 .div-container-header {
   display: flex;
   width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -75,10 +75,12 @@ body {
   display: flex;
   gap: 40px;
 }
-.address {
-  font-style: normal;
+.contacts-conteiner {
   display: flex;
   gap: 40px;
+}
+.address {
+  font-style: normal;
 }
 /* contacts */
 .contacts-list {
