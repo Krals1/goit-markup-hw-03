@@ -214,6 +214,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team {
   color: var(--navyblue, #2e2f42);
@@ -224,6 +225,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  width: calc((100% - 72px) / 4);
 }
 .teams {
   display: flex;
@@ -231,6 +233,10 @@ body {
 }
 .teams-list {
   width: calc((100% - 48px) / 3);
+}
+.teammates {
+  display: flex;
+  gap: 24px;
 }
 .teammate {
   color: var(--navyblue, #2e2f42);
@@ -261,6 +267,8 @@ body {
 }
 .section {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 /* Footer */
 .page-footer {
