@@ -271,7 +271,7 @@ body {
 }
 .teammatet {
   color: var(--navyblue, #2e2f42);
-
+  margin-bottom: 8px;
   font-size: 20px;
 
   font-weight: 500;
@@ -283,7 +283,6 @@ body {
   text-align: center;
   text-align: center;
   font-size: 16px;
-  margin-bottom: 8px;
 
   line-height: 24px;
   letter-spacing: 0.32px;
