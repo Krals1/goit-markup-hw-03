@@ -6,6 +6,9 @@
   --primary-cloud: #f4f4fd;
   --primary-cornflower: #e7e9fc;
 }
+.img {
+  display: block;
+}
 .link {
   text-decoration: none;
 }
