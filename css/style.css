@@ -68,6 +68,10 @@ body {
 .header-conteiner .link:focus {
   color: #404bbf;
 }
+.portf-sect {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .h-main {
   list-style: none;
 }
@@ -117,8 +121,14 @@ body {
 .button-ground-pf:focus {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
 }
-
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .main-content {
   background: #fff;
 }
@@ -155,6 +165,12 @@ body {
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .button-ground {
   background: var(--iris, #4d5ae5);
