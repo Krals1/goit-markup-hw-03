@@ -6,9 +6,7 @@
   --primary-cloud: #f4f4fd;
   --primary-cornflower: #e7e9fc;
 }
-.img {
-  display: block;
-}
+
 .link {
   text-decoration: none;
 }
@@ -18,6 +16,18 @@
 /* Header */
 .page-header {
   background: var(--white, #fff);
+  border-bottom: 1px solid #e7e9fc;
+}
+.div-container-header {
+  display: flex;
+  width: 1158px;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 body {
   font-family: "Raleway", sans-serif;
@@ -35,6 +45,7 @@ body {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 76px;
 }
 .pre-studio {
   color: var(--navyblue, #2e2f42);
@@ -57,9 +68,17 @@ body {
   letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-conteiner {
+  display: flex;
+  gap: 40px;
 }
 .address {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 /* contacts */
 .contacts-list {
