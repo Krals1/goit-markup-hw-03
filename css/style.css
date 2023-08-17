@@ -115,10 +115,12 @@ body {
   background: #2e2f42;
   line-height: 1.07;
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .sect-title {
   color: var(--white, #fff);
-
+  max-width: 496px;
   font-family: Roboto;
   font-size: 56px;
   text-align: center;
@@ -142,10 +144,14 @@ body {
   color: var(--white, #fff);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-
+  display: block;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .job-conteiner-list-title {
