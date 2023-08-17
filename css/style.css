@@ -283,6 +283,7 @@ body {
   text-align: center;
   text-align: center;
   font-size: 16px;
+  margin-bottom: 8px;
 
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -312,12 +313,9 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
-.picto-portf {
-  width: calc((100% - 48px) / 3);
-}
 .portf-pict-div {
+  width: calc((100% - 48px) / 3);
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
