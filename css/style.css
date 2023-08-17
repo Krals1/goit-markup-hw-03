@@ -30,6 +30,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px; 
 }
 .pre-studio {
   color: var(--navyblue, #2e2f42);
@@ -201,12 +203,13 @@ body {
 /* Footer */
 .page-footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .about-footer {
   color: var(--cloud, #f4f4fd);
 
   font-size: 16px;
-
+ max-width: 264px;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
