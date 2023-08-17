@@ -226,6 +226,11 @@ body {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.mate {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .teams {
   display: flex;
