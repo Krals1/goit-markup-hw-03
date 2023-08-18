@@ -55,8 +55,7 @@ img {
 }
 .header-nav {
   display: flex;
-  gap: 40px;
-  margin: 0 auto;
+  align-items: center;
 }
 body {
   font-family: "Raleway", sans-serif;
