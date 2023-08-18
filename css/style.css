@@ -35,10 +35,9 @@ img {
 .container-head {
   display: flex;
   align-items: center;
-  
 }
-.container{
-width: 1158px;
+.container {
+  width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -325,7 +324,17 @@ body {
 .picto-portf {
   width: calc ((100% - 48px) / 3);
 }
-ul{
-  padding:0;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
 }
