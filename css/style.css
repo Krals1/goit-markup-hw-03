@@ -195,7 +195,7 @@ body {
   gap: 24px;
 }
 .job-conteiner-list {
-  width: calc ((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .job-conteiner-list-title {
   color: var(--navyblue, #2e2f42);
@@ -256,7 +256,7 @@ body {
   gap: 24px;
 }
 .teams-list {
-  width: calc ((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 .teammates {
   display: flex;
