@@ -306,7 +306,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-.portf-pict {
+.picto-portf {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
